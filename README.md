@@ -1,17 +1,19 @@
 # Challenge-Bootstrap
 Challenge Bootstrap par Déborah et Roxane
 
-- Header
+- Header :
 Déborah
 
-- Navbar
+- Navbar :
 Roxane
 
-- Footer
+- Main :
+Roxane
+
+- Footer :
 Déborah
 
 ToDo :
-- Télécharger les fichiers bootstrap nécessaires (min et grid ?)
 - Commenter le style.css
 
 ToDo Roxane :
