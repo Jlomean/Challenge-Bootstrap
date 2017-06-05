@@ -1,0 +1,225 @@
+@font-face {
+	font-family: "Merriweather, SourceSansPro-Regular";
+	src: url("../fonts/Merriweather-regular.ttf" "..fonts/SourceSansPro-Regular.ttf")
+}
+
+body {
+	background: url(../img/bg.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+h1:hover {
+	color: deepskyblue;
+	transition: all 0.5s;
+}
+
+/* ====================================== Navbar ====================================== */
+
+#navbar {
+	background-color: rgba(255,255,255,0.2);
+	display: flex;
+	height: 10%;
+	width: 85%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#navbar ul {
+	list-style-type: none;
+}
+
+.pages {
+	text-transform: uppercase;
+	font-family: SourceSansPro-Regular, Helvetica, sans-serif;
+	font-weight: 800;
+	display: flex;
+	flex-direction: row;
+	padding-left: 0;
+	margin: 0 0;
+}
+
+.pages li {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+.pages a {
+	padding: 2em;
+	transition: all 0.5s;
+}
+
+.pages a:hover {
+	background-color : rgba(255,255,255,0.4);
+	transition: all 0.5s;
+}
+
+.active {
+	background-color: white;
+}
+
+.active a {
+	color: black;
+	transition: all 0.5s;
+}
+
+.active a:hover {
+	color: deepskyblue;
+	transition: all 0.5s;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	padding-left: 0;
+	margin: 0 0;	
+}
+
+.social li {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+
+.social a {
+	padding: 1em;
+	transition: all 0.5s;
+}
+
+.social a:hover {
+	color: deepskyblue;
+	transition: all 0.5s;
+}
+
+/* ====================================== Main ====================================== */
+
+.main {
+	width: 85%;
+	margin: auto;
+}
+
+.main img {
+	display: block;
+	margin: 5% auto;
+	transition: all 0.5s;
+	max-width: 70%;
+	height: auto;
+}
+
+.main img:hover {	
+	transform-origin: 50% 50%;
+	transform: scale(1.05);
+}
+
+header {
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	padding: 7%;
+	cursor: default;
+	font-family: Merriweather, Georgia, serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.row {
+	margin: auto;
+}
+
+.col-md-6 {
+	padding: 0;
+}
+
+.published {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 100;
+}
+
+hr {
+	width: 30%;
+	height: 1px;
+	color: lightgray;
+}
+
+article {
+	border: solid 1px lightgray;
+	padding: 10%;
+}
+
+article p {
+	text-align: justify;
+	font-family: Merriweather, Georgia, serif;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	flex-direction: column;
+	padding: 0;
+	background-color: white;
+}
+
+.button {
+	display: flex;
+	justify-content: space-around;
+	margin: auto 37%;
+	padding: 1em;
+	text-transform: uppercase;
+	border: solid black 2px;
+	color: black;
+	font-family: SourceSansPro-Regular, Helvetica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	transition: all 0.5s;
+}
+
+.button:hover {
+	color: deepskyblue;
+	border-color: deepskyblue;
+	transition: all 0.5s;
+}
+
+.headline {
+	color: black;
+	font-family: SourceSansPro-Regular, Helvetica, sans-serif;
+	font-weight: 800;
+	transition: all 0.5s;
+}
+
+h2 {
+	font-size: 4rem;
+	font-style: normal;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.headline:hover {
+	color: deepskyblue;
+	transition: all 0.5s;
+}
