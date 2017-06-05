@@ -1,3 +1,7 @@
+/*****
+Auteurs : Roxane Gervais et Déborah Delcourt
+*****/
+
 @font-face {
 	font-family: "Merriweather, SourceSansPro-Regular";
 	src: url("../fonts/Merriweather-regular.ttf" "..fonts/SourceSansPro-Regular.ttf")
@@ -23,7 +27,67 @@ h1:hover {
 	color: deepskyblue;
 	transition: all 0.5s;
 }
+/*****ENTETE*****/
+header {
+	width: 75%;
+	height: 75%;
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
 
+blockquote {
+	font-style: italic;
+	font-size: 25px;
+}
+
+/*****TITRES*****/
+header h1 {
+	text-transform: uppercase;
+	font-family: SourceSansPro-Regular;
+	font-weight: bold;
+}
+header h1 {
+	font-size: 70px;
+}
+
+/*****FORMULAIRE DE CONTACT*****/
+.formulaire {
+	width: 85%;
+	margin: auto;
+	background: #e7e7e7;
+	font-size: 12px;
+}
+
+.partun {
+	padding-right: 10px;
+	margin: 0 2% 0 2%;
+	border-right: lightgrey 2px solid;
+}
+
+input, textarea {width: 100%;
+	background: #e7e7e7;
+	border: 2px solid lightgrey;}
+
+strong, label {
+	text-transform: uppercase;
+	color: grey;
+	font-size: 12px;
+}
+
+.ligne {
+	border-bottom: 2px lightgrey solid;}
+	
+/*****FOOTER*****/
+footer {
+	margin-top: 2%;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+}
 /* ====================================== Navbar ====================================== */
 
 #navbar {
