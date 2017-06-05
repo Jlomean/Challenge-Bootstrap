@@ -175,6 +175,7 @@ footer {
 .main {
 	width: 85%;
 	margin: auto;
+	background-color: white;
 }
 
 .main img {
@@ -190,16 +191,16 @@ footer {
 	transform: scale(1.05);
 }
 
-header {
+.head {
 	margin: auto;
 	text-align: center;
-	background-color: white;
 	padding: 7%;
 	cursor: default;
 	font-family: Merriweather, Georgia, serif;
 	font-size: 1.5rem;
 	font-style: italic;
 	font-weight: 100;
+	color: black !important;
 }
 
 .row {
