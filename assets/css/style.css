@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Merriweather, SourceSansPro-Regular";
+	src: url("../fonts/Merriweather-regular.ttf" "..fonts/SourceSansPro-Regular.ttf")
+}
+
 body {
 	background: url(../img/bg.jpg) no-repeat fixed;
 	background-size: cover;
@@ -13,7 +18,7 @@ h1, h2, h3 {
 	text-align: center;
 }
 
-h1:hover, h2:hover, h3:hover {
+h1:hover {
 	color: deepskyblue;
 }
 
@@ -100,11 +105,21 @@ h1:hover, h2:hover, h3:hover {
 	margin: auto;
 }
 
+.main img {
+	display: block;
+	margin: 5% auto;
+}
+
 header {
 	margin: auto;
 	text-align: center;
 	background-color: white;
 	padding: 7%;
+	cursor: default;
+	font-family: Merriweather, Georgia, serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 100;
 }
 
 .row {
@@ -115,6 +130,22 @@ header {
 	padding: 0;
 }
 
+.published {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 100;
+}
+
+hr {
+	width: 30%;
+	height: 1px;
+	color: lightgray;
+}
+
 article {
 	border: solid 1px lightgray;
 	padding: 10%;
@@ -122,6 +153,9 @@ article {
 
 article p {
 	text-align: justify;
+	font-family: Merriweather, Georgia, serif;
+	font-size: 1.5rem;
+	font-weight: 100;
 }
 
 .container {
@@ -131,4 +165,41 @@ article p {
 	flex-direction: column;
 	padding: 0;
 	background-color: white;
+}
+
+.button {
+	display: flex;
+	justify-content: space-around;
+	margin: auto 37%;
+	padding: 1em;
+	text-transform: uppercase;
+	border: solid black 2px;
+	color: black;
+	font-family: SourceSansPro-Regular, Helvetica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.button:hover {
+	color: deepskyblue;
+	border-color: deepskyblue;
+}
+
+.headline {
+	color: black;
+	font-family: SourceSansPro-Regular, Helvetica, sans-serif;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 4rem;
+	font-style: normal;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.headline:hover {
+	color: deepskyblue;
 }
